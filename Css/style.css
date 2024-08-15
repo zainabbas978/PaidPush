@@ -1,0 +1,153 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: url('your-high-quality-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: rgba(255, 21, 0, 0.8); /* Semi-transparent overlay */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 3px solid #ff6f61;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.3em;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #ff6f61;
+}
+
+/* Services Section */
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+.service h3 {
+    font-size: 1.5em;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+.service ul {
+    list-style: none;
+}
+
+.service ul li {
+    margin-bottom: 10px;
+}
+
+/* Pricing Table */
+#pricing {
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+
+
+/* Contact Section */
+#contact {
+    margin-top: 20px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    .service {
+        flex: 1 1 100%;
+    }
+}
